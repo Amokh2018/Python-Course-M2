@@ -6,5 +6,6 @@ class TestCLIInteractive(unittest.TestCase):
     @patch("builtins.input", return_value="Alice")  # Simulate user input
     def test_greet_input(self, mock_input):
         self.assertEqual(greet_interactive(), "Hello, Alice!")
-
-unittest.main()
+        
+if __name__ == "__main__":
+    unittest.main()

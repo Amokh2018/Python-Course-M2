@@ -136,7 +136,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+my_venv/
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -146,7 +146,7 @@ venv.bak/
 
 # mkdocs documentation
 /site
-
+.DS_Store
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -170,4 +170,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-Lab1.ipynb
+.venv/
+noshow/
+private/
+Day3/
+Day4/
+Day5/

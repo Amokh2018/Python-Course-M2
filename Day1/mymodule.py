@@ -15,8 +15,10 @@ def sum_even_numbers(numbers):
 
 def read_file(filename):
     # Open the file in read mode
-    pass
+    with open(filename, 'r') as file:
+        return file.read()
     
 def write_file(filename, content):
     # Open the file in write mode
-    pass   
+    with open(filename, 'w') as file:
+        file.write(content) 
